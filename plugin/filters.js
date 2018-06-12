@@ -13,8 +13,8 @@
 
     Filters.composerHelp = function (helpText, callback) {
         helpText += '<h2>Spoiler</h2>';
-        helpText += 'To hide content you could use spoilers:';
-        helpText += '\n<pre>\n:::\n\nspoiler content, will be hidden under interactive button\n\n:::</pre>';
+        helpText += 'By ukryć treść, możesz użyć spoilera:';
+        helpText += '\n<pre>\n:::\n\ntreść spoilera będzie ukryta pod interaktywnym przyciskiem\n\n:::</pre>';
         callback(null, helpText);
     };
 
